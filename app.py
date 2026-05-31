@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ── Gemini Kurulumu ──────────────────────────────────────────────
-API_KEY = "AIzaSyBEz3enTL9c8_KxNKn-2PXHMRUbfnS5sjM"
+API_KEY = "...."
 client = genai.Client(api_key=API_KEY)
 MODEL_ID = "gemini-2.5-flash"
 
